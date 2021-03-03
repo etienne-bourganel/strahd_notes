@@ -1,0 +1,23 @@
+body {
+  background-color: grey;
+}
+
+.main-img {
+  display: block;
+  margin: 20px auto;
+  width: 650px
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.links-block--link {
+  font-size: 20px;
+  padding: 20px;
+}
