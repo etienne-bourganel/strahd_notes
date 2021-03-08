@@ -21,10 +21,16 @@ p {
   text-align: center;
 }
 
+.main-box {
+  display: grid;
+  grid-template-columns: 1fr 700px 1fr;
+  justify-items: center;
+}
+
 .links-block {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
+
   margin: 20px auto;
   width: 700px;
 }
@@ -35,4 +41,8 @@ p {
   padding: 20px;
   text-align: center;
   text-decoration: none;
+}
+
+.side-img {
+  height: 300px;
 }
